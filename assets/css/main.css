@@ -5,24 +5,17 @@
     font-family: "Poppins", sans-serif;
 }
 .container {
+    position: relative;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-.exclamation-lg {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    animation: animationIcon 5s ease-in-out infinite;
-    animation-fill-mode: forwards;
-    z-index: 10;
-    opacity: 0;
+    background-color: #ECCEAE;
 }
 .slideOne{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
@@ -31,7 +24,7 @@
     justify-content: center;
     animation: slideOne 2s ease-in-out;
     animation-fill-mode: forwards;
-    transition: all 2s;
+    animation-delay: 5s;
     /* Aguacate */
     .aguacate {
         opacity: 0;
@@ -62,38 +55,324 @@
         animation-fill-mode: forwards;
     }
 }
+.slideTwo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slideOne 2s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+    .maceta {
+        opacity: 0;
+        width: 175px;
+        height: 175px;
+        transform: translateX(1080px);
+        animation: Aguacate 2s ease-in-out;
+        animation-delay: 7s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    /* slideOneTitle */
+    .slideOneTitle {
+        opacity: 0;
+        margin-top: 25px;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 7s;
+        animation-fill-mode: forwards;
+    }
+    /* slideOneText */
+    .slideOneText {
+        opacity: 0;
+        margin-top: 8px;
+        text-align: center;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 7s;
+        animation-fill-mode: forwards;
+    }
+}
+.slideThre {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slideOne 2s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 19s;
+    .maceta {
+        opacity: 0;
+        width: 175px;
+        height: 175px;
+        transform: translateX(1080px);
+        animation: Aguacate 2s ease-in-out;
+        animation-delay: 14s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    .semilla {
+        opacity: 0;
+        width: 50px;
+        height: 50px;
+        transform: translateX(1080px);
+        animation: Semilla 2s ease-in-out;
+        animation-delay: 14s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    /* slideOneTitle */
+    .slideOneTitle {
+        opacity: 0;
+        margin-top: 25px;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 14s;
+        animation-fill-mode: forwards;
+    }
+    /* slideOneText */
+    .slideOneText {
+        opacity: 0;
+        margin-top: 8px;
+        text-align: center;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 14s;
+        animation-fill-mode: forwards;
+    }
+}
+.slidefour {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slideOne 2s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 26s;
+    .maceta {
+        opacity: 0;
+        width: 175px;
+        height: 175px;
+        transform: translateX(1080px);
+        animation: Aguacate 2s ease-in-out;
+        animation-delay: 21s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    .semilla {
+        opacity: 0;
+        width: 50px;
+        height: 50px;
+        transform: translateX(1080px) translateY(55px);
+        animation: SemillaTwo 2s ease-in-out;
+        animation-delay: 21s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    .regadera {
+        opacity: 0;
+        width: 75px;
+        height: 75px;
+        animation: Regadera 2s ease-in-out;
+        animation-delay: 21s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    /* slideOneTitle */
+    .slideOneTitle {
+        opacity: 0;
+        margin-top: 25px;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 21s;
+        animation-fill-mode: forwards;
+    }
+    /* slideOneText */
+    .slideOneText {
+        opacity: 0;
+        margin-top: 8px;
+        text-align: center;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 21s;
+        animation-fill-mode: forwards;
+    }
+}
+.slidefive {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slideOne 2s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 33s;
+    .maceta {
+        opacity: 0;
+        width: 175px;
+        height: 175px;
+        transform: translateX(1080px);
+        animation: Aguacate 2s ease-in-out;
+        animation-delay: 28s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    .planta {
+        opacity: 0;
+        width: 50px;
+        height: 50px;
+        transform: translateY(40px);
+        animation: Planta 2s ease-in-out;
+        animation-delay: 28s;
+        animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    /* slideOneTitle */
+    .slideOneTitle {
+        opacity: 0;
+        margin-top: 25px;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 28s;
+        animation-fill-mode: forwards;
+    }
+    /* slideOneText */
+    .slideOneText {
+        opacity: 0;
+        margin-top: 8px;
+        text-align: center;
+        color: #1F3502;
+        animation: slideOneTitle 2s ease-in-out;
+        transition: all 1s;
+        animation-delay: 28s;
+        animation-fill-mode: forwards;
+    }
+}
 
 @keyframes Aguacate {
-/*     0% {
-        transform: translate(1080px, 0) rotate(45deg);
-    }
-    100% {
-        transform: translate(0, 0) rotate(0);
-    }
- */
     0% {
-        transform: scale(0);
+        transform: scale(0) rotate(0deg);
         opacity: 0;
     }
     25% {
-        transform: scale(1);
+        transform: scale(1) rotate(-5deg);
         opacity: 1;
     }
     50% {
-        transform: scale(0.9);
+        transform: scale(0.9) rotate(10deg);
         opacity: 1;
     }
     100% {
-        transform: scale(1);
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+@keyframes Regadera {
+    0% {
+        transform: scale(0) rotate(0deg) translateX(20px);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(1) rotate(-5deg) translateX(20px);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.9) rotate(10deg) translateX(20px);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(-45deg) translateX(20px);
+        opacity: 1;
+    }
+}
+@keyframes Semilla {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(1) rotate(-5deg) translateY(0px);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.9) rotate(10deg) translateY(55px);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(0deg) translateY(55px);
+        opacity: 1;
+    }
+}
+@keyframes SemillaTwo {
+    0% {
+        transform: scale(0) rotate(0deg) translateY(55px);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(1) rotate(-5deg) translateY(55px);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.9) rotate(10deg) translateY(55px);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(0deg) translateY(55px);
+        opacity: 1;
+    }
+}
+@keyframes Planta {
+    0% {
+        transform: scale(0) rotate(0deg) translateY(40px);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(1) rotate(-5deg) translateY(40px);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.9) rotate(10deg) translateY(40px);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(0deg) translateY(40px);
         opacity: 1;
     }
 }
 @keyframes slideOne {
     0% {
-        background-color: #ECCEAE;
+        transform: scale(1) ;
+        opacity: 1;
+    }
+    25% {
+        transform: scale(0.9) ;
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1) ;
+        opacity: 1;
     }
     100% {
-        background-color: #ECCEAE;
+        transform: scale(0) ;
+        opacity: 0;
     }
 }
 @keyframes slideOneTitle {
